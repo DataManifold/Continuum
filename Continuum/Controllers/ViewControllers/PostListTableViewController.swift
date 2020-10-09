@@ -16,6 +16,8 @@ class PostListTableViewController: UITableViewController {
     
     //MARK: - Properties
     
+    var post: Post?
+    
     var resultsArray: [Post] = []
     
     var isSearching: Bool = false
